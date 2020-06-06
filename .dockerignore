@@ -1,0 +1,10 @@
+tests
+deployment
+docs
+.coveralls.yml
+.coveragerc
+.gitignore
+Dockerfile
+LICENCE.md
+README.md
+setup.py
