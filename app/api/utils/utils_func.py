@@ -4,9 +4,8 @@ import requests
 
 def format_time_stamp(date_time):
     """This method gets me the hours in AM and PM"""
-    timestamp = datetime.datetime.strptime(
-        str(date_time), "%Y-%m-%d %H:%M:%S"
-    ).strftime("%I %b %d %Y %p")
+    timestamp = datetime.strptime(
+        str((date_time)), "%Y-%m-%d %H:%M:%S.%f").strftime("%b %d %Y %I%p")
     return timestamp
 
 
